@@ -16,7 +16,7 @@ function App() {
         </Routes>
       </main>
       <footer className="bg-dark text-white text-center py-3">
-        © 2025 Examen Vite React
+        Alberto Jiménez
       </footer>
     </>
   );
