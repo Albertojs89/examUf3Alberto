@@ -8,7 +8,7 @@ export const bd = [
     descripcion:
       "Cerveza rubia, suave y refrescante con un sabor ligeramente amargo.",
     imagen:
-      "https://www.mahou.es/wp-content/themes/mahou_v2/template-contents/mahou-familia/dist/images/Botella_Mahou_5_Estrellas.png",
+      "https://www.mahou.es/wp-content/uploads/2024/10/mahou_cinco_estrellas_xl_2024.png",
   },
   {
     id: 22,
@@ -18,7 +18,7 @@ export const bd = [
     descripcion:
       "Cerveza suave y equilibrada con un sabor ligeramente amargo y aroma a malta.",
     imagen:
-      "https://cdn.shopify.com/s/files/1/0271/8158/0388/products/estrella-galicia-escerveza-3.jpg?v=1648893181",
+      "https://estrellagalicia.es/adobe/dynamicmedia/deliver/dm-aid--dede15ca-65e3-4edd-8a1f-8f7aefaa656f/img-product-estrella-galicia-es.png?quality=85&preferwebp=true",
   },
   {
     id: 33,
