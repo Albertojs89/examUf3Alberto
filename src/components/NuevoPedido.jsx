@@ -1,7 +1,12 @@
-
 import { bd } from '../bd';
 
-function NuevoPedido() {
+function NuevoPedido({ setBirraSeleccionada }) {
+  const handleSeleccion = (e) => {
+    const idSeleccionado = parseInt(e.target.value);
+    const birra = bd.find((b) => b.id === idSeleccionado);
+    setBirraSeleccionada(birra || null);
+  };
+
   return (
     <>
       <h3>Grupo</h3>
@@ -13,7 +18,7 @@ function NuevoPedido() {
 
       <h3 className="mt-5">Haz tu pedido</h3>
       <div className="d-flex gap-3">
-        <select name="cervezas" id="cervezas" className="form-control">
+        <select name="cervezas" id="cervezas" className="form-control" onChange={handleSeleccion}>
           <option value="">Selecciona qué birra quieres</option>
           {bd.map((birra) => (
             <option key={birra.id} value={birra.id}>
