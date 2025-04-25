@@ -1,4 +1,4 @@
-// src/views/Camareros.jsx
+
 import TablaPedidos from '../components/TablaPedidos';
 
 function Camareros() {
