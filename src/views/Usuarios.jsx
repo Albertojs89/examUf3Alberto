@@ -24,7 +24,7 @@ function Usuarios() {
               imagen={birraSeleccionada.imagen}
             />
           ) : (
-            <p className="text-center mt-5">Selecciona una birra per veure la fitxa 🍺</p>
+            <p className="text-center mt-5">Selecciona una birra per veure la fitxa</p>
           )}
         </div>
       </div>

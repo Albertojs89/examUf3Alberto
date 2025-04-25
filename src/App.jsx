@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/usuarios" element={<Usuarios />} />
           <Route path="/camareros" element={<Camareros />} />
-          <Route path="/" element={<p>Benvingut al projecte d'examen!</p>} />
+          <Route path="/" element={<p>Exam Alberto</p>} />
         </Routes>
       </main>
       <footer className="bg-dark text-white text-center py-3">
