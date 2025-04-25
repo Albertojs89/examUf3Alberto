@@ -1,4 +1,6 @@
 
+import { bd } from '../bd';
+
 function NuevoPedido() {
   return (
     <>
@@ -13,12 +15,14 @@ function NuevoPedido() {
       <div className="d-flex gap-3">
         <select name="cervezas" id="cervezas" className="form-control">
           <option value="">Selecciona qué birra quieres</option>
-          <option value="estrellaGalicia">Estrella Galicia</option>
-          <option value="estrellaDamm">Estrella Damm</option>
-          <option value="mahou">Mahou</option>
+          {bd.map((birra) => (
+            <option key={birra.id} value={birra.id}>
+              {birra.nombre}
+            </option>
+          ))}
         </select>
 
-        <input type="number" value="0" className="form-control" />
+        <input type="number" defaultValue={0} className="form-control" />
       </div>
 
       <button className="btn btn-success mt-4 w-100">¡Enviar pedido!</button>
